@@ -93,6 +93,8 @@
                     <ul>
                       <li><a class="active" href="#home">Home</a></li>
                       <li><a href="#resume">Resume</a></li>
+                      <li><a href="#portfolio">Portfolio</a></li>
+                      <li><a href="#blog">Blog</a></li>
                       <li><a href="#contact">Contact</a></li>
                     </ul>
                   </nav>
@@ -189,8 +191,8 @@
                         <div class="service-item">
                           <i class="flaticon-web-design"></i>
                           <h5>
-                            Websites <br />
-                            Development
+                            Web Sites and <br />
+                            Platforms
                           </h5>
                         </div>
                       </div>
@@ -199,8 +201,8 @@
                         <div class="service-item">
                           <i class="flaticon-mobile-app"></i>
                           <h5>
-                            Interactive <br />
-                            Web Applications
+                            Mobile <br />
+                            Aplications
                           </h5>
                         </div>
                       </div>
@@ -209,8 +211,8 @@
                         <div class="service-item">
                           <i class="flaticon-strategy"></i>
                           <h5>
-                            Branding <br />
-                            Digital Strategy
+                            Strategy <br />
+                            and Branding
                           </h5>
                         </div>
                       </div>
@@ -218,7 +220,7 @@
                       <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="service-item">
                           <i class="flaticon-photo"></i>
-                          <h5>Media <br />Automation</h5>
+                          <h5>Product <br />Photography</h5>
                         </div>
                       </div>
                       <!-- a service -->
@@ -226,9 +228,8 @@
                         <div class="service-item">
                           <i class="flaticon-seo-2"></i>
                           <h5>
-                            Performance
-                            <br />
-                            SEO Optimization
+                            Seo <br />
+                            Optimization
                           </h5>
                         </div>
                       </div>
@@ -236,7 +237,10 @@
                       <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="service-item">
                           <i class="flaticon-social-marketing"></i>
-                          <h5>WordPress <br />Development</h5>
+                          <h5>
+                            Social Media <br />
+                            Management
+                          </h5>
                         </div>
                       </div>
                     </div>
@@ -755,6 +759,274 @@
                 </section>
 
                 <!-- PORTFOLIO -->
+                <section class="portfolio" id="portfolio">
+                  <div class="spacer-75"></div>
+                  <!-- Page Caption -->
+                  <div class="section-title page-caption">
+                    <h5>Portfolio</h5>
+                    <div class="zigzag">
+                      <hr class="left" />
+                      <hr class="right" />
+                      <svg
+                        xml:space="preserve"
+                        viewBox="0 0 69.172 14.975"
+                        width="37"
+                        height="28"
+                        y="0px"
+                        x="0px"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                      >
+                        <path
+                          d="M1.357,12.26 10.807,2.81 20.328,12.332
+                        29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "
+                          style="
+                            stroke-dasharray: 93.9851, 93.9851;
+                            stroke-dashoffset: 0;
+                          "
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="spacer-45"></div>
+
+                  <div class="section-head">
+                    <!-- Filter -->
+                    <div class="portfolio_filter">
+                      <ul>
+                        <li>
+                          <a class="select-cat" data-filter="*" href="#"
+                            >All Works</a
+                          >
+                        </li>
+                        <li>
+                          <a data-filter=".photography" href="#">Photography</a>
+                        </li>
+                        <li>
+                          <a data-filter=".branding" href="#">Branding</a>
+                        </li>
+                        <li><a data-filter=".other" href="#">Other</a></li>
+                      </ul>
+                    </div>
+                    <div class="spacer-60"></div>
+                  </div>
+                  <div class="row masonry">
+                    <!-- portfolio item -->
+                    <a
+                      href="work-1.html"
+                      class="col-xl-4 col-lg-6 col-md-6 grid-item photography"
+                    >
+                      <div
+                        class="work-holder scale-animation"
+                        data-duration="2"
+                        data-delay=".3"
+                      >
+                        <figure class="portfolio-item">
+                          <img src="images/works/work-1/01.jpg" alt="" />
+                          <figcaption>
+                            <div class="outer">
+                              <div class="inner">
+                                <span>Photography </span>
+                                <h3 class="title">Daria Miami</h3>
+                              </div>
+                            </div>
+                          </figcaption>
+                        </figure>
+                      </div>
+                    </a>
+                    <!-- portfolio item -->
+                    <a
+                      href="work-2.html"
+                      class="col-xl-4 col-lg-6 col-md-6 grid-item branding"
+                    >
+                      <div
+                        class="work-holder scale-animation"
+                        data-delay=".4"
+                        data-duration="2"
+                      >
+                        <figure class="portfolio-item">
+                          <img src="images/works/work-2/01-grid.jpg" alt="" />
+                          <figcaption>
+                            <div class="outer">
+                              <div class="inner">
+                                <span>Branding </span>
+                                <h3 class="title">Bohinc Studio</h3>
+                              </div>
+                            </div>
+                          </figcaption>
+                        </figure>
+                      </div>
+                    </a>
+                    <!--  VIDEO portfolio item -->
+                    <a
+                      href="work-8.html"
+                      class="col-xl-4 col-lg-6 col-md-6 grid-item grid-video other"
+                    >
+                      <div
+                        class="work-holder scale-animation"
+                        data-delay=".5"
+                        data-duration="2"
+                      >
+                        <div class="video-caption">
+                          <div class="outer">
+                            <div class="inner">
+                              <span>Other </span>
+                              <h3 class="title">The Last Pizza</h3>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="video-wrapper four-three">
+                          <video playsinline loop="" muted="">
+                            <source
+                              src="images/works/work-8/video.mp4"
+                              type="video/mp4"
+                            />
+                          </video>
+                        </div>
+                      </div>
+                    </a>
+                    <!-- portfolio item -->
+                    <a
+                      href="work-3.html"
+                      class="col-xl-4 col-lg-6 col-md-6 grid-item other"
+                    >
+                      <div
+                        class="work-holder scale-animation"
+                        data-delay=".8"
+                        data-duration="2"
+                      >
+                        <figure class="portfolio-item">
+                          <img src="images/works/work-3/01.jpg" alt="" />
+                          <figcaption>
+                            <div class="outer">
+                              <div class="inner">
+                                <span>Other </span>
+                                <h3 class="title">Connect Home</h3>
+                              </div>
+                            </div>
+                          </figcaption>
+                        </figure>
+                      </div>
+                    </a>
+                    <!-- portfolio item -->
+                    <a
+                      href="work-4.html"
+                      class="col-xl-4 col-lg-6 col-md-6 grid-item photography"
+                    >
+                      <div
+                        class="work-holder scale-animation"
+                        data-delay=".7"
+                        data-duration="2"
+                      >
+                        <figure class="portfolio-item">
+                          <img src="images/works/work-4/01.jpg" alt="" />
+                          <figcaption>
+                            <div class="outer">
+                              <div class="inner">
+                                <span>Photography </span>
+                                <h3 class="title">Walnut and Green</h3>
+                              </div>
+                            </div>
+                          </figcaption>
+                        </figure>
+                      </div>
+                    </a>
+                    <!-- portfolio item -->
+                    <a
+                      href="work-5.html"
+                      class="col-xl-4 col-lg-6 col-md-6 grid-item photography"
+                    >
+                      <div
+                        class="work-holder scale-animation"
+                        data-delay=".6"
+                        data-duration="2"
+                      >
+                        <figure class="portfolio-item">
+                          <img src="images/works/work-5/01.jpg" alt="" />
+                          <figcaption>
+                            <div class="outer">
+                              <div class="inner">
+                                <span>Photography</span>
+                                <h3 class="title">46 Bar & Restaurant</h3>
+                              </div>
+                            </div>
+                          </figcaption>
+                        </figure>
+                      </div>
+                    </a>
+
+                    <!-- portfolio item -->
+                    <a
+                      href="work-6.html"
+                      class="col-xl-4 col-lg-6 col-md-6 grid-item photography"
+                    >
+                      <div
+                        class="work-holder scale-animation"
+                        data-delay="1"
+                        data-duration="2"
+                      >
+                        <figure class="portfolio-item">
+                          <img src="images/works/work-6/01.jpg" alt="" />
+                          <figcaption>
+                            <div class="outer">
+                              <div class="inner">
+                                <span>Photography </span>
+                                <h3 class="title">Dark</h3>
+                              </div>
+                            </div>
+                          </figcaption>
+                        </figure>
+                      </div>
+                    </a>
+                    <!-- portfolio item -->
+                    <a
+                      href="work-7.html"
+                      class="col-xl-4 col-lg-6 col-md-6 grid-item branding"
+                    >
+                      <div
+                        class="work-holder scale-animation"
+                        data-delay=".9"
+                        data-duration="2"
+                      >
+                        <figure class="portfolio-item">
+                          <img src="images/works/work-7/01.jpg" alt="" />
+                          <figcaption>
+                            <div class="outer">
+                              <div class="inner">
+                                <span>Branding </span>
+                                <h3 class="title">Nexta</h3>
+                              </div>
+                            </div>
+                          </figcaption>
+                        </figure>
+                      </div>
+                    </a>
+                    <!-- portfolio item -->
+                    <a
+                      href="work-9.html"
+                      class="col-xl-4 col-lg-6 col-md-6 grid-item photography"
+                    >
+                      <div
+                        class="work-holder scale-animation"
+                        data-delay=".9"
+                        data-duration="2"
+                      >
+                        <figure class="portfolio-item">
+                          <img src="images/works/work-9/01.jpg" alt="" />
+                          <figcaption>
+                            <div class="outer">
+                              <div class="inner">
+                                <span>Photography </span>
+                                <h3 class="title">Dark Forest</h3>
+                              </div>
+                            </div>
+                          </figcaption>
+                        </figure>
+                      </div>
+                    </a>
+                  </div>
+                </section>
 
                 <!-- CONTACT -->
                 <section class="contact" id="contact">
@@ -790,64 +1062,12 @@
                   <div class="spacer-45"></div>
                   <div class="row">
                     <!-- Map -->
-                    <!-- <div
+                    <div
                       id="map"
                       class="map scale-animation"
                       data-delay="2"
                       data-duration="3"
-                    ></div> -->
-
-                    <div class="embed-map-responsive">
-                      <div class="embed-map-container">
-                        <iframe
-                          class="embed-map-frame"
-                          frameborder="0"
-                          scrolling="no"
-                          marginheight="0"
-                          marginwidth="0"
-                          src="https://maps.google.com/maps?width=1320&height=565&hl=en&q=Hiltown%20impress&t=&z=14&ie=UTF8&iwloc=B&output=embed"
-                        ></iframe
-                        ><a
-                          href="https://sprunkiretake.net"
-                          style="
-                            font-size: 2px !important;
-                            color: gray !important;
-                            position: absolute;
-                            bottom: 0;
-                            left: 0;
-                            z-index: 1;
-                            max-height: 1px;
-                            overflow: hidden;
-                          "
-                          >sprunki retake</a
-                        >
-                      </div>
-                      <style>
-                        .embed-map-responsive {
-                          position: relative;
-                          text-align: right;
-                          width: 100%;
-                          height: 0;
-                          padding-bottom: 42.803030303030305%;
-                        }
-                        .embed-map-container {
-                          overflow: hidden;
-                          background: none !important;
-                          width: 100%;
-                          height: 100%;
-                          position: absolute;
-                          top: 0;
-                          left: 0;
-                        }
-                        .embed-map-frame {
-                          width: 100% !important;
-                          height: 100% !important;
-                          position: absolute;
-                          top: 0;
-                          left: 0;
-                        }
-                      </style>
-                    </div>
+                    ></div>
 
                     <div class="spacer-75"></div>
                     <!-- contact info -->
@@ -863,30 +1083,17 @@
                         >
                       </div>
                       <div class="contact-info address">
-                        <p class="little-p info-title">Address</p>
+                        <p class="little-p info-title">My office</p>
                         <p>
-                          502, HillTown Impressa<br />
-                          Anmol Cir Rd, Nikol,<br />
-                          382350, Ahmedabad, India
+                          1444 S. Alameda Street Los Angeles, <br />
+                          California 90021
                         </p>
                       </div>
                       <div class="contact-info social">
                         <p class="little-p info-title">Follow us</p>
-                        <a
-                          target="_blank"
-                          href="https://www.linkedin.com/in/shailesh-dhundhalva/"
-                          >LinkedIn.</a
-                        >
-                        <a
-                          target="_blank"
-                          href="https://www.instagram.com/iamshailesh0808/"
-                          >Instagram.</a
-                        >
-                        <a
-                          target="_blank"
-                          href="https://www.facebook.com/shailesh.dhundhalva"
-                          >Facebook.</a
-                        >
+                        <a href="#">Facebook.</a>
+                        <a href="#">Instagram.</a>
+                        <a href="#">Linkedin.</a>
                       </div>
                     </div>
                     <div
@@ -1001,30 +1208,13 @@
               <div class="container">
                 <div class="footer-inner">
                   <div class="copyright">
-                    <p>Copyright 2025 - All right reserved</p>
+                    <p>Copyright 2022 - All right reserved</p>
                   </div>
                   <ul class="social">
-                    <li>
-                      <a
-                        target="_blank"
-                        href="https://www.linkedin.com/in/shailesh-dhundhalva/"
-                        >LinkedIn</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        target="_blank"
-                        href="https://www.instagram.com/iamshailesh0808/"
-                        >Instagram</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        target="_blank"
-                        href="https://www.facebook.com/shailesh.dhundhalva"
-                        >Facebook</a
-                      >
-                    </li>
+                    <li><a target="_blank" href="#">Facebook</a></li>
+                    <li><a target="_blank" href="#">Twitter</a></li>
+                    <li><a target="_blank" href="#">Instagram</a></li>
+                    <li><a target="_blank" href="#">Dribbble</a></li>
                   </ul>
                 </div>
               </div>
@@ -1037,6 +1227,10 @@
     <!-- Javascripts -->
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/plugins.js"></script>
+    <script
+      type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3gqyHylICdokv-P1q2WtRihCFhiFnm_U&sensor=false"
+    ></script>
     <script src="assets/js/map.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
