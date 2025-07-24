@@ -1773,7 +1773,9 @@ hr {
   left: 0;
   z-index: -1;
 }
-
+.highlight {
+  color: #e6ff00;
+}
 /*------------------------ Animations ------------------------*/
 
 .scroll-animation-on .classic-animation {
@@ -2083,7 +2085,7 @@ hr {
 /* FOOTER */
 .footer-area {
   padding-top: 60px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   font-family: "Exo", sans-serif;
 }
 .common-btn {
@@ -2431,7 +2433,7 @@ hr {
 @media only screen and (max-width: 991.98px) {
   .footer-area {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
   }
   .footer__top-social ul {
     justify-content: center;
