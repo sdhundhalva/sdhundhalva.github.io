@@ -43,8 +43,8 @@ open index.html
 
 If you're interested in working together or just want to connect, feel free to reach out:
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/sdhundhalva/)
-- 📧 Email: shailesh.dhundhalva@gmail.com
+- 💼 [LinkedIn](https://www.linkedin.com/in/shailesh-dhundhalva/)
+- 📧 Email: sdhundhalva@gmail.com
 
 ## 📜 License
 
