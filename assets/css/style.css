@@ -830,7 +830,7 @@ hr {
 
 .testimonial-carousel .swiper-pagination-bullets {
   position: relative;
-  margin-top: 75px;
+  margin-top: 55px;
 }
 
 .swiper-pagination-bullet {
@@ -2010,8 +2010,8 @@ hr {
   }
 
   h1.hero-big {
-    font-size: 1.8rem;
-    line-height: 3rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
     font-weight: 500;
   }
 

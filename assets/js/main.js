@@ -20,11 +20,8 @@ function ajaxLoad() {
   testimonialSlider();
   workslider();
   lightbox();
-  ContactForm();
-  videoPlay();
   charts();
   isotope();
-  contactmap();
   setTimeout(() => {
     scrollAnimation();
   }, 1000);
@@ -100,31 +97,6 @@ function lightbox() {
       gallery: { enabled: true },
       zoom: { enabled: true, duration: 300 },
     });
-  }
-}
-
-// VIDEO HOVER PLAY
-function videoPlay() {
-  if ($(".video-wrapper").length) {
-    setTimeout(() => {
-      $("video").get(0).pause();
-    }, 10);
-  }
-
-  if ($(".grid-item.grid-video").length) {
-    $(".grid-video")
-      .on("mouseenter", function () {
-        $(this).find("video").get(0).play();
-      })
-      .on("mouseleave", function () {
-        $(this).find("video").get(0).pause();
-      });
-  }
-
-  if ($(".work-hero.video-hero").length) {
-    setTimeout(() => {
-      $(".work-hero").find("video").get(0).play();
-    }, 10);
   }
 }
 
@@ -465,49 +437,3 @@ function testimonialSlider() {
     },
   });
 }
-
-//CONTACT FORM
-function ContactForm() {
-  if (jQuery("#contact-formular").length > 0) {
-    $("#contactform").submit(function () {
-      var action = $(this).attr("action");
-      $("#message").slideUp(750, function () {
-        $("#message").hide();
-        $("#submit").attr("disabled", "disabled");
-        $.post(
-          action,
-          {
-            name: $("#name").val(),
-            email: $("#email").val(),
-            comments: $("#comments").val(),
-          },
-          function (data) {
-            document.getElementById("message").innerHTML = data;
-            $("#message").slideDown("slow");
-            $("#contactform img.loader").fadeOut("slow", function () {
-              $(this).remove();
-            });
-            $("#submit").removeAttr("disabled");
-            if (data.match("success") != null)
-              $("#contactform").slideUp("slow");
-          }
-        );
-      });
-      return false;
-    });
-
-    $(
-      "form .form-group input, form .form-group textarea,  form .form-group select"
-    ).focus(function () {
-      $(this).parents(".form-group").addClass("in");
-
-      $(
-        "form .form-group input, form .form-group textarea,  form .form-group select"
-      ).blur(function () {
-        if (!$(this).val()) {
-          $(this).parents(".form-group").removeClass("in");
-        }
-      });
-    });
-  }
-} //End ContactForm
