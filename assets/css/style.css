@@ -2083,6 +2083,7 @@ hr {
 /* FOOTER */
 .footer-area {
   padding-top: 60px;
+  padding-bottom: 30px;
   font-family: "Exo", sans-serif;
 }
 .common-btn {
@@ -2430,6 +2431,7 @@ hr {
 @media only screen and (max-width: 991.98px) {
   .footer-area {
     padding-top: 30px;
+    padding-bottom: 30px;
   }
   .footer__top-social ul {
     justify-content: center;
@@ -2795,17 +2797,9 @@ hr {
   }
 }
 
-.footer__bottom {
-  padding: 30px 0;
-}
 .bg-black {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
-}
-@media only screen and (max-width: 991.98px) {
-  .footer__bottom {
-    padding: 20px 0;
-  }
 }
 
 .footer__bottom-social ul {
@@ -2995,19 +2989,23 @@ hr {
   -o-animation: scaleLoop 2s ease-in-out infinite;
 }
 .scroll-to-top {
+  background-color: white;
+  right: 40px;
+  bottom: 40px;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: white;
-  border: 1px solid #ccc;
-  border-radius: 50%;
-  padding: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  z-index: 2;
   cursor: pointer;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 9px 25px 0 rgba(132, 128, 177, 0.28);
+  border: none;
   display: none;
-  z-index: 999;
-  transition: opacity 0.3s ease;
 }
 .scroll-to-top.show {
   display: block;
+}
+.scroll-to-top svg {
+  width: 20px !important;
+  height: 20px !important;
 }
